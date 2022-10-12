@@ -1,0 +1,4 @@
+Liandra;20
+Luiz;52
+Julia;52
+Jose;78
