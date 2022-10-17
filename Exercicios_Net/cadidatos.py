@@ -32,18 +32,18 @@ if v2 > v1:
 if v3 > maior:
     maior = v3
 
-cc1 = Canditados("Marcos de Gás", v1)
+cc1 = Canditados("Marcos do Gás", v1)
 cc2 = Canditados("Vanessa da Venda", v2)
 cc3 = Canditados("Joaquim do Pastel", v3)
 
-print(f"Candidato 1- Marcos de Gás teve {v1} votos!")
+print(f"Candidato 1- Marcos do Gás teve {v1} votos!")
 print(f"Candidato 2- Vanessa da Venda teve {v2} votos!")
 print(f"Candidato 3- Joaquim do Pastel teve {v3} votos!")
 
 print("O vencedor das eleições foi ", end="")
 if maior == v1:
-    print(cc1.nome)
+    print(f"{cc1.nome} com {v1} votos!")
 if maior == v2:
-    print(cc2.nome)
+    print(f"{cc2.nome} com {v2} votos!")
 if maior == v3:
-    print(cc3.nome)
+    print(f"{cc3.nome} com {v3} votos!")
