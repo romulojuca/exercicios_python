@@ -32,6 +32,6 @@ if resp >= 0:
 if resp < 0:
     print("NEGATIVO, ", end='')
 if resp % resp_copy == 0:
-    print("e INTERO!")
+    print("e INTEIRO!")
 if resp % resp_copy != 0:
     print("e DECIMAL!")
