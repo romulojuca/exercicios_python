@@ -4,7 +4,7 @@ s = 1
 c = 3
 t = 0
 
-print('A sequencia ficará {} -> {} ->'.format(p, s), end='')
+print('A sequencia ficará {} -> {} -> '.format(p, s), end='')
 
 while c <= n:
     t = p + s
