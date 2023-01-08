@@ -3,12 +3,17 @@
 
 lista = []
 lista2 = []
+inicial = 1
 
 
-for c in range(0, 9):
+for c in range(0, 8):
     if c == 0:
         lista.append(1)
     lista.append(lista[c] + lista[c-1])
 
+print(f"Sequencia -> {inicial} -> ", end='')
 
-print(lista)
+for c in lista:
+    print(f"{c} -> ",end='')
+
+print("FIM!")
