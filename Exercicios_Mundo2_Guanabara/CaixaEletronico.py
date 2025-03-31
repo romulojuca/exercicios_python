@@ -1,4 +1,5 @@
 print('\033[31m- '*30)
+
 print(f"{'BANCO CENTRAL':>35}")
 print('- '*30, end='')
 print('\033[m')
