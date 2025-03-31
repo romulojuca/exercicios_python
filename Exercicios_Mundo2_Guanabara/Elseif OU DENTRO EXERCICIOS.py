@@ -26,4 +26,3 @@ elif (data-anon) > 18:
     print ('Ja passou {} ano(s) do tempo de se alistar!'.format((data-anon)-18))
 else:
     print ('Falta {} anos para vc se alistar'.format(18-(data-anon)))
-    

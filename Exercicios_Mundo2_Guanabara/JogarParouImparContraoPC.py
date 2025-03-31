@@ -4,7 +4,7 @@ print('=--'*30)
 print('VAMOS JOGAR PAR OU IMPAR!!!!')
 print('=--'*30)
 num = int(input('Escolha um numero: '))
-ppi = str(input('Você quer Par ou Impar? [P/I]')).strip().upper() [0]
+ppi = str(input('Você quer Par ou Impar? [P/I]')).strip().upper()[0]
 pcpi = ''
 pc = ''
 numpc = randint(1, 10)
